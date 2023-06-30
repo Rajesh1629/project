@@ -1,16 +1,3 @@
-#react-root {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-color: darken(white, 20%);
-}
-
-#app {
-	padding: 1rem;
-}
-
-.sample {
-	margin-left: auto;
-	margin-right: auto;
-	width: 400px;
+.slider{
+	justify-content: center;
 }
