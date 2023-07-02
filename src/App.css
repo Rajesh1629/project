@@ -1,3 +1,39 @@
-.slider{
-	justify-content: center;
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background: rebeccapurple;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.main{
+	display:flex;
+	padding:20px;
+}
+.main .col-md-3{
+	width: 20%;
+}
+.main .col-md-6{
+	width: 60%;
 }

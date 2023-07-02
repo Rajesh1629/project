@@ -1,11 +1,25 @@
 import React from 'react'
+import Header from '../components/Header'
+import Leftnav from './Leftnav'
+import Rightnav from './Rightnav'
+import Footer from './Footer'
 
 const Layout = (props) => {
-  return (
-    <div>
-      <h1>UPPER PART</h1>
-      {props.children || null}
-      <h1>LOWER PART </h1>
+  return (  
+    <div className='container bg-primaray'>
+      <Header />
+      <div class='row main'>
+        <div className='col-md-3'>
+          <Leftnav />
+        </div>
+        <div class='col-md-6'>
+          {props.children || null}
+        </div>
+        <div class='col-md-3'>
+          <Rightnav />
+        </div>
+      </div>
+          <Footer />
     </div>
   )
 }
