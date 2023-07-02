@@ -1,15 +1,15 @@
 import React from "react";
-import Slider from "./slider";
+import Slider from "./components/slider";
+import Topnews from "./components/topnews";
 import './App.css'
-import Topnews from "./topnews";
+import Layout from "./components/layout";
+import Header from "./components/header";
 export default function App() {
  
   return (
-    <div className="row"> 
-      <div className="container slider">
-        <Topnews/>
-        <Slider/>
-      </div>
-    </div>
+       <Layout>
+          <Topnews/>  
+          <Slider/>
+       </Layout>
      );
 }
