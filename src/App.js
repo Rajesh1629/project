@@ -8,7 +8,7 @@ export default function App() {
   return (
        <Layout>
           <Topnews/>  
-          <Slider/>
+          {/* <Slider/>  */}
        </Layout>
      );
 }

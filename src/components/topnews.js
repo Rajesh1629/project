@@ -15,8 +15,17 @@ const Topnews = () => {
             
             return(
                 <div key={index}>
-                    <img src={item.thumbnail} alt='img'/>
-                    <p>{item.title}</p>
+                    <img src={item.thumbnail} alt='img' style={{"height": "42vh","width": "35vw"}}/>
+                    <p>{item.description}</p>
+                </div>
+            )
+        }):""} 
+         {topnews ? topnews.products.slice(1,4).map((item,index)=>{
+            
+            return(
+                <div className='article-sm' key={index}>
+                    <img src={item.thumbnail} alt='img' style={{"height": "32vh", "width": "18vw"}}/>
+                    <p>{item.description}</p>
                 </div>
             )
         }):""} 

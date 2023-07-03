@@ -36,4 +36,23 @@ main {
 }
 .main .col-md-6{
 	width: 60%;
+    padding: 0px 20px 0px 20px;
+}
+
+.sections {
+    padding: 10px;
+    background: silver;
+    border: 1px solid grey;
+}
+.article-sm{
+    display: flex;
+}
+.article-sm p{
+    padding: 25px;
+}
+.right_ads img{
+    height: 34vh;
+    width: 17vw;
+    padding: 5px;
+    margin-bottom: 10px;
 }
